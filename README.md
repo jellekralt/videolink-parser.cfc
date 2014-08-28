@@ -15,8 +15,7 @@ To this:
 ```
 
 ## Usage
-```coldfusion
-
+```cfml
 <cfset videoLinkParser = createObject("component", "videolink-parser") />
 
 <cfset youtube = "https://www.youtube.com/watch?v=oHg5SJYRHA0" />
