@@ -8,6 +8,12 @@
 		<cfreturn embedTemplate(videoLinkInfo.link.player, videoLinkInfo.type) />
 	</cffunction>
 
+	<cffunction name="playerLink" returnType="string" access="public" output="false" displayname="Player link" description="Generates the link to the player">
+		<cfargument name="link" type="string" required="true" displayname="Link" hint="Link to the video resource" /> 
+		
+		<cfreturn parseLink(arguments.link).link.player />
+	</cffunction>
+
 	<cffunction name="parseLink" returntype="struct" access="private" displayname="Parse link" description="Parses a link and returns information about it">
 		<cfargument name="link" type="string" required="true" displayname="Link" hint="Link to the video resource" /> 
 
