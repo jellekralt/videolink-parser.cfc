@@ -1,0 +1,46 @@
+{
+    "name":"videolink-parser",
+    "version":"1.0.0.0000",
+    "author":"Jelle Kralt <jelle@jellekralt.nl>",
+    "directory":"/",
+    "createPackageDirectory":true,
+    "homepage":"https://github.com/jellekralt/videolink-parser.cfc",
+    "documentation":"https://github.com/jellekralt/videolink-parser.cfc",
+    "repository":{
+        "type":"git",
+        "url":"https://github.com/jellekralt/videolink-parser.cfc"
+    },
+    "bugs":"https://github.com/jellekralt/videolink-parser.cfc/issues",
+    "slug":"videolink-parser",
+    "shortDescription":"Parse links for video sites like YouTube and Vimeo and convert them to embed links and codes",
+    "keywords":[
+        "video",
+        "movie",
+        "embed",
+        "youtube",
+        "vimeo",
+        "include",
+        "parser",
+        "link"
+    ],
+    "private":false,
+    "engines":[
+        {
+            "type":"railo",
+            "version":">=4.1.x"
+        },
+        {
+            "type":"adobe",
+            "version":">=8.0.0"
+        }
+    ],
+    "license":[
+        {
+            "type":"MIT",
+            "url":"http://jellekralt.mit-license.org/"
+        }
+    ],
+    "ignore":[
+        
+    ]
+}
